@@ -1,4 +1,4 @@
-riday Bot
+Friday Bot
 
 Friday Bot is a comprehensive Node.js application combining a Slack bot built with the Bolt framework and an Express REST API. It handles interactive Slack commands, background event listening, and automated messaging endpoints secured with API key authentication.
 
