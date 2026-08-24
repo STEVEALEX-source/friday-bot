@@ -1,0 +1,145 @@
+{
+  "display_information": {
+    "name": "Friday Bot"
+  },
+  "features": {
+    "bot_user": {
+      "display_name": "Friday Bot",
+      "always_online": true
+    },
+    "slash_commands": [
+      {
+        "command": "/bot-status",
+        "description": "Check bot operating status",
+        "should_escape": false
+      },
+      {
+        "command": "/bot-echo",
+        "description": "Echo back a message",
+        "should_escape": false
+      },
+      {
+        "command": "/bot-calc",
+        "description": "Perform basic calculations",
+        "should_escape": false
+      },
+      {
+        "command": "/bot-user",
+        "description": "Get user info",
+        "should_escape": false
+      },
+      {
+        "command": "/bot-weather",
+        "description": "Check current weather",
+        "should_escape": false
+      },
+      {
+        "command": "/bot-remind",
+        "description": "Set a quick reminder",
+        "should_escape": false
+      },
+      {
+        "command": "/bot-translate",
+        "description": "Translate text",
+        "should_escape": false
+      },
+      {
+        "command": "/bot-qrcode",
+        "description": "Generate a QR code",
+        "should_escape": false
+      },
+      {
+        "command": "/bot-git-status",
+        "description": "Check repository git status",
+        "should_escape": false
+      },
+      {
+        "command": "/bot-snippet",
+        "description": "Share a code snippet",
+        "should_escape": false
+      },
+      {
+        "command": "/bot-deploy",
+        "description": "Trigger a deployment",
+        "should_escape": false
+      },
+      {
+        "command": "/bot-logs",
+        "description": "Fetch recent system logs",
+        "should_escape": false
+      },
+      {
+        "command": "/bot-joke",
+        "description": "Get a random joke",
+        "should_escape": false
+      },
+      {
+        "command": "/bot-quote",
+        "description": "Get an inspiring quote",
+        "should_escape": false
+      },
+      {
+        "command": "/bot-dice",
+        "description": "Roll a die",
+        "should_escape": false
+      },
+      {
+        "command": "/bot-poll",
+        "description": "Create a quick poll",
+        "should_escape": false
+      },
+      {
+        "command": "/bot-time",
+        "description": "Check current time",
+        "should_escape": false
+      },
+      {
+        "command": "/bot-crypto",
+        "description": "Check cryptocurrency prices",
+        "should_escape": false
+      },
+      {
+        "command": "/bot-news",
+        "description": "Fetch latest news updates",
+        "should_escape": false
+      },
+      {
+        "command": "/bot-xkcd",
+        "description": "Get a random xkcd comic",
+        "should_escape": false
+      },
+      {
+        "command": "/bot-game-search",
+        "description": "Search for a game",
+        "should_escape": false
+      },
+      {
+        "command": "/bot-stream-status",
+        "description": "Check live stream status",
+        "should_escape": false
+      },
+      {
+        "command": "
+        "command": "/bot-leaderboard",
+        "description": "View game leaderboard",
+        "should_escape": false
+      }
+    ]
+  },
+  "oauth_config": {
+    "scopes": {
+      "bot": [
+        "chat:write",
+        "commands"
+      ]
+    }
+  },
+  "settings": {
+    "interactivity": {
+      "is_enabled": true
+    },
+    "org_deploy_enabled": false,
+    "socket_mode_enabled": true,
+    "token_rotation_enabled": false
+  }
+}
